@@ -10,3 +10,7 @@ img {
     opacity: 80%;
     object-fit: cover;
 }
+
+.hidden {
+    display: none;
+}
