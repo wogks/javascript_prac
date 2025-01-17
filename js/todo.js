@@ -38,3 +38,16 @@ function handleTodoSubmit(event) {
 }
 
 toDoForm.addEventListener("submit", handleTodoSubmit);
+
+function he(item) {
+
+}
+
+const savedTodos = localStorage.getItem("todos");
+console.log(savedTodos);
+
+if (savedTodos !== null) {
+    const parsedTodos = JSON.parse(savedTodos);
+    console.log(parsedTodos);
+    parsedTodos.forEach(he);
+}
